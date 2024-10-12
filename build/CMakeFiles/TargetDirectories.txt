@@ -1,3 +1,9 @@
 /home/halohunter/origin/build/CMakeFiles/Origin.dir
 /home/halohunter/origin/build/CMakeFiles/edit_cache.dir
 /home/halohunter/origin/build/CMakeFiles/rebuild_cache.dir
+/home/halohunter/origin/build/SDL/CMakeFiles/SDL3-shared.dir
+/home/halohunter/origin/build/SDL/CMakeFiles/SDL3_test.dir
+/home/halohunter/origin/build/SDL/CMakeFiles/SDL_uclibc.dir
+/home/halohunter/origin/build/SDL/CMakeFiles/uninstall.dir
+/home/halohunter/origin/build/SDL/CMakeFiles/edit_cache.dir
+/home/halohunter/origin/build/SDL/CMakeFiles/rebuild_cache.dir

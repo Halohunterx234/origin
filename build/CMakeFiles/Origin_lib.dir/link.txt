@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOrigin_lib.a CMakeFiles/Origin_lib.dir/src/main.cpp.o
+/usr/bin/ranlib libOrigin_lib.a

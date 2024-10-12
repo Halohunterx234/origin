@@ -1,0 +1,650 @@
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18775/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18775.dir/build.make CMakeFiles/cmTC_18775.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18775.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_WDOCUMENTATION  -D_GNU_SOURCE=1   -Wdocumentation -o CMakeFiles/cmTC_18775.dir/src.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-Wdocumentation'
+gmake[1]: *** [CMakeFiles/cmTC_18775.dir/build.make:78: CMakeFiles/cmTC_18775.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_18775/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da1bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da1bc.dir/build.make CMakeFiles/cmTC_da1bc.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da1bc.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -D_GNU_SOURCE=1   -Wdocumentation-unknown-command -o CMakeFiles/cmTC_da1bc.dir/src.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-Wdocumentation-unknown-command'
+gmake[1]: *** [CMakeFiles/cmTC_da1bc.dir/build.make:78: CMakeFiles/cmTC_da1bc.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_da1bc/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_COMMENT_BLOCK_COMMANDS failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b97b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b97b.dir/build.make CMakeFiles/cmTC_9b97b.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b97b.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   -fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_9b97b.dir/src.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-fcomment-block-commands=threadsafety'
+gmake[1]: *** [CMakeFiles/cmTC_9b97b.dir/build.make:78: CMakeFiles/cmTC_9b97b.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9b97b/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4fc37/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4fc37.dir/build.make CMakeFiles/cmTC_4fc37.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fc37.dir/src.c.o
+/usr/bin/cc -DHAVE_CLANG_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   /clang:-fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_4fc37.dir/src.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/src.c
+cc: warning: /clang:-fcomment-block-commands=threadsafety: linker input file unused because linking not done
+cc: error: /clang:-fcomment-block-commands=threadsafety: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_4fc37.dir/build.make:78: CMakeFiles/cmTC_4fc37.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_4fc37.dir/src.c.o'
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4fc37/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the _i64toa exist failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_30fb8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30fb8.dir/build.make CMakeFiles/cmTC_30fb8.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30fb8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_30fb8.dir/CheckSymbolExists.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘_i64toa’ undeclared (first use in this function)
+   26 |   return ((int*)(&_i64toa))[argc];
+      |                   ^~~~~~~
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_30fb8.dir/build.make:78: CMakeFiles/cmTC_30fb8.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_30fb8/fast] Error 2
+
+
+File /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _i64toa
+  return ((int*)(&_i64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the itoa exist failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05641/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05641.dir/build.make CMakeFiles/cmTC_05641.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05641.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_05641.dir/CheckSymbolExists.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘itoa’ undeclared (first use in this function)
+   26 |   return ((int*)(&itoa))[argc];
+      |                   ^~~~
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_05641.dir/build.make:78: CMakeFiles/cmTC_05641.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_05641/fast] Error 2
+
+
+File /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef itoa
+  return ((int*)(&itoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ltoa exist failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4dec6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4dec6.dir/build.make CMakeFiles/cmTC_4dec6.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4dec6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_4dec6.dir/CheckSymbolExists.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘_ltoa’ undeclared (first use in this function)
+   26 |   return ((int*)(&_ltoa))[argc];
+      |                   ^~~~~
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_4dec6.dir/build.make:78: CMakeFiles/cmTC_4dec6.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4dec6/fast] Error 2
+
+
+File /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ltoa
+  return ((int*)(&_ltoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqr exist failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0cec4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0cec4.dir/build.make CMakeFiles/cmTC_0cec4.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0cec4.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_0cec4.dir/CheckSymbolExists.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘sqr’ undeclared (first use in this function); did you mean ‘sqrt’?
+   26 |   return ((int*)(&sqr))[argc];
+      |                   ^~~
+      |                   sqrt
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_0cec4.dir/build.make:78: CMakeFiles/cmTC_0cec4.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0cec4/fast] Error 2
+
+
+File /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqr
+  return ((int*)(&sqr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03e16/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03e16.dir/build.make CMakeFiles/cmTC_03e16.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03e16.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_03e16.dir/CheckSymbolExists.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+   26 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_03e16.dir/build.make:78: CMakeFiles/cmTC_03e16.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_03e16/fast] Error 2
+
+
+File /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_29e45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_29e45.dir/build.make CMakeFiles/cmTC_29e45.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29e45.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_29e45.dir/CheckSymbolExists.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+   26 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_29e45.dir/build.make:78: CMakeFiles/cmTC_29e45.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_29e45/fast] Error 2
+
+
+File /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnstr exist failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5d638/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d638.dir/build.make CMakeFiles/cmTC_5d638.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d638.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_5d638.dir/CheckSymbolExists.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘strnstr’ undeclared (first use in this function); did you mean ‘strstr’?
+   26 |   return ((int*)(&strnstr))[argc];
+      |                   ^~~~~~~
+      |                   strstr
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_5d638.dir/build.make:78: CMakeFiles/cmTC_5d638.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5d638/fast] Error 2
+
+
+File /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnstr
+  return ((int*)(&strnstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d5c27/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5c27.dir/build.make CMakeFiles/cmTC_d5c27.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5c27.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_d5c27.dir/CheckSymbolExists.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘wcslcat’ undeclared (first use in this function); did you mean ‘wcsncat’?
+   26 |   return ((int*)(&wcslcat))[argc];
+      |                   ^~~~~~~
+      |                   wcsncat
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_d5c27.dir/build.make:78: CMakeFiles/cmTC_d5c27.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d5c27/fast] Error 2
+
+
+File /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6ffe2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6ffe2.dir/build.make CMakeFiles/cmTC_6ffe2.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ffe2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_6ffe2.dir/CheckSymbolExists.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘wcslcpy’ undeclared (first use in this function); did you mean ‘wcsncpy’?
+   26 |   return ((int*)(&wcslcpy))[argc];
+      |                   ^~~~~~~
+      |                   wcsncpy
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_6ffe2.dir/build.make:78: CMakeFiles/cmTC_6ffe2.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_6ffe2/fast] Error 2
+
+
+File /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_37153/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_37153.dir/build.make CMakeFiles/cmTC_37153.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37153.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_37153.dir/CheckSymbolExists.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:10: fatal error: sys/sysctl.h: No such file or directory
+    3 | #include <sys/sysctl.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_37153.dir/build.make:78: CMakeFiles/cmTC_37153.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_37153/fast] Error 2
+
+
+File /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3987d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3987d.dir/build.make CMakeFiles/cmTC_3987d.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3987d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_3987d.dir/CheckSymbolExists.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘elf_aux_info’ undeclared (first use in this function)
+    8 |   return ((int*)(&elf_aux_info))[argc];
+      |                   ^~~~~~~~~~~~
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_3987d.dir/build.make:78: CMakeFiles/cmTC_3987d.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3987d/fast] Error 2
+
+
+File /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test ICONV_IN_LIBICONV failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8ec37/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8ec37.dir/build.make CMakeFiles/cmTC_8ec37.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ec37.dir/src.c.o
+/usr/bin/cc -DICONV_IN_LIBICONV  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_8ec37.dir/src.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8ec37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ec37.dir/link.txt --verbose=1
+/usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_8ec37.dir/src.c.o -o cmTC_8ec37  -liconv 
+/usr/bin/ld: cannot find -liconv: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8ec37.dir/build.make:99: cmTC_8ec37] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8ec37/fast] Error 2
+
+
+Source file was:
+
+        #include <stddef.h>
+        #include <iconv.h>
+        int main(int argc, char **argv) {
+            return !iconv_open(NULL,NULL);
+        }
+Performing C SOURCE FILE Test LIBC_HAS_WORKING_LIBUNWIND failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7dcf0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7dcf0.dir/build.make CMakeFiles/cmTC_7dcf0.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7dcf0.dir/src.c.o
+/usr/bin/cc -DLIBC_HAS_WORKING_LIBUNWIND  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_7dcf0.dir/src.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/src.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/src.c:1:10: fatal error: libunwind.h: No such file or directory
+    1 | #include <libunwind.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_7dcf0.dir/build.make:78: CMakeFiles/cmTC_7dcf0.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7dcf0/fast] Error 2
+
+
+Source file was:
+#include <libunwind.h>
+int main() {unw_context_t context; unw_getcontext(&context); return 0;}
+Performing C SOURCE FILE Test LIBUNWIND_HAS_WORKINGLIBUNWIND failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0a24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0a24.dir/build.make CMakeFiles/cmTC_e0a24.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0a24.dir/src.c.o
+/usr/bin/cc -DLIBUNWIND_HAS_WORKINGLIBUNWIND  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_e0a24.dir/src.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/src.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/src.c:1:10: fatal error: libunwind.h: No such file or directory
+    1 | #include <libunwind.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e0a24.dir/build.make:78: CMakeFiles/cmTC_e0a24.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e0a24/fast] Error 2
+
+
+Source file was:
+#include <libunwind.h>
+int main() {unw_context_t context; unw_getcontext(&context); return 0;}
+Determining if the include file pthread_np.h exists failed with the following output:
+Change Dir: /home/halohunter/origin/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4c51/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4c51.dir/build.make CMakeFiles/cmTC_c4c51.dir/build
+gmake[1]: Entering directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4c51.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -D_REENTRANT -pthread -o CMakeFiles/cmTC_c4c51.dir/CheckIncludeFile.c.o -c /home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/halohunter/origin/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: pthread_np.h: No such file or directory
+    1 | #include <pthread_np.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_c4c51.dir/build.make:78: CMakeFiles/cmTC_c4c51.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/halohunter/origin/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c4c51/fast] Error 2
+
+
+
