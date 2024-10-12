@@ -1,0 +1,3 @@
+/home/halohunter/origin/build/CMakeFiles/Origin.dir
+/home/halohunter/origin/build/CMakeFiles/edit_cache.dir
+/home/halohunter/origin/build/CMakeFiles/rebuild_cache.dir

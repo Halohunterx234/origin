@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/halohunter/origin/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/Origin.dir/src/main.cpp.o -c /home/halohunter/origin/src/main.cpp",
+  "file": "/home/halohunter/origin/src/main.cpp"
+}
+]
