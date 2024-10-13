@@ -129,58 +129,6 @@ Origin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Origin.dir/build.make CMakeFiles/Origin.dir/build
 .PHONY : Origin/fast
 
-#=============================================================================
-# Target rules for targets named SDL3-shared
-
-# Build rule for target.
-SDL3-shared: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL3-shared
-.PHONY : SDL3-shared
-
-# fast build rule for target.
-SDL3-shared/fast:
-	$(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL3-shared.dir/build.make SDL/CMakeFiles/SDL3-shared.dir/build
-.PHONY : SDL3-shared/fast
-
-#=============================================================================
-# Target rules for targets named SDL3_test
-
-# Build rule for target.
-SDL3_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL3_test
-.PHONY : SDL3_test
-
-# fast build rule for target.
-SDL3_test/fast:
-	$(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL3_test.dir/build.make SDL/CMakeFiles/SDL3_test.dir/build
-.PHONY : SDL3_test/fast
-
-#=============================================================================
-# Target rules for targets named SDL_uclibc
-
-# Build rule for target.
-SDL_uclibc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL_uclibc
-.PHONY : SDL_uclibc
-
-# fast build rule for target.
-SDL_uclibc/fast:
-	$(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL_uclibc.dir/build.make SDL/CMakeFiles/SDL_uclibc.dir/build
-.PHONY : SDL_uclibc/fast
-
-#=============================================================================
-# Target rules for targets named uninstall
-
-# Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uninstall
-.PHONY : uninstall
-
-# fast build rule for target.
-uninstall/fast:
-	$(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/uninstall.dir/build.make SDL/CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -213,11 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... uninstall"
 	@echo "... Origin"
-	@echo "... SDL3-shared"
-	@echo "... SDL3_test"
-	@echo "... SDL_uclibc"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -5070,6 +5070,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "MYGAME_VENDORED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use vendored libraries"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "OPENGL_EGL_INCLUDE_DIR",
 			"properties" : 
 			[
@@ -5232,18 +5244,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/halohunter/origin"
-		},
-		{
-			"name" : "Origin_lib_LIB_DEPENDS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Dependencies for the target"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "general;SDL;"
 		},
 		{
 			"name" : "PC_GBM_CFLAGS",
@@ -9310,18 +9310,6 @@
 			"value" : "/usr/lib/x86_64-linux-gnu/libpulse.so"
 		},
 		{
-			"name" : "SDL2_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SDL2."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2"
-		},
-		{
 			"name" : "SDL3_BINARY_DIR",
 			"properties" : 
 			[
@@ -9332,6 +9320,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/halohunter/origin/build/SDL"
+		},
+		{
+			"name" : "SDL3_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SDL3."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/local/lib/cmake/SDL3"
 		},
 		{
 			"name" : "SDL3_IS_TOP_LEVEL",
@@ -10780,22 +10780,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/libX11.so"
-		},
-		{
-			"name" : "X11_LIBRARIES",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
 		},
 		{
 			"name" : "X11_LIB_X11_SOLO",

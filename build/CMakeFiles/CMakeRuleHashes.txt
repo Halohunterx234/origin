@@ -1,5 +1,4 @@
 # Hashes of file build rules.
-8a0e7426b3cb0fa1601c7783ea449c99 SDL/CMakeFiles/uninstall
 5be809593083aba1e03125d684b82144 SDL/wayland-generated-protocols/alpha-modifier-v1-client-protocol.h
 4a80645c9a177e3e16ba62d78caa72c1 SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c
 c98799f0b57f6766a319f2f7e2adfa9f SDL/wayland-generated-protocols/cursor-shape-v1-client-protocol.h

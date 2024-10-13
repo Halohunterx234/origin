@@ -334,6 +334,9 @@ LibUSB_LINK_FLAGS:STRING=
 //Extra link libraries of LibUSB
 LibUSB_LINK_LIBRARIES:STRING=
 
+//Use vendored libraries
+MYGAME_VENDORED:BOOL=OFF
+
 //Path to a file.
 OPENGL_EGL_INCLUDE_DIR:PATH=/usr/include
 
@@ -367,9 +370,6 @@ Origin_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Origin_SOURCE_DIR:STATIC=/home/halohunter/origin
 
-//Dependencies for the target
-Origin_lib_LIB_DEPENDS:STATIC=general;SDL;
-
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
 
@@ -379,11 +379,11 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 //Path to a library.
 PULSE_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libpulse.so
 
-//The directory containing a CMake configuration file for SDL2.
-SDL2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SDL2
-
 //Value Computed by CMake
 SDL3_BINARY_DIR:STATIC=/home/halohunter/origin/build/SDL
+
+//The directory containing a CMake configuration file for SDL3.
+SDL3_DIR:PATH=/usr/local/lib/cmake/SDL3
 
 //Value Computed by CMake
 SDL3_IS_TOP_LEVEL:STATIC=OFF
@@ -1182,7 +1182,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
